@@ -1,0 +1,64 @@
+﻿@model IEnumerable<LectureDto>
+
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="text-white">Lecture List</h1>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row pb-3">
+            <div class="col-6">
+            </div>
+            <div class="col-6 text-end">
+                <a asp-action="UpSet" class="btn btn-outline-primary"><i class="bi bi-plus-square"></i> Create New Lecture</a>
+            </div>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                 
+                    <th>
+                        Description
+                    </th>
+
+                    <th>
+                        Material
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item.Name
+                        </td>
+                        <td>
+                            @item.Description
+                        </td>
+                        <td>
+                            @item.MaterialId
+                        </td>
+                        <td>
+                            <a asp-action="Delete" asp-route-id="@item.LectureId" class="btn btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                        <td>
+                            <a asp-action="UpSet" asp-route-id="@item.LectureId" class="btn btn-light">
+                                Edit
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

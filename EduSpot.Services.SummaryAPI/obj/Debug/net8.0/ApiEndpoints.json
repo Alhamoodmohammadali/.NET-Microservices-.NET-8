@@ -1,0 +1,186 @@
+[
+  {
+    "ContainingType": "EduSpot.Services.SummaryAPI.Controllers.SummaryController",
+    "Method": "Get",
+    "RelativePath": "api/Summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "EduSpot.Services.SummaryAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduSpot.Services.SummaryAPI.Controllers.SummaryController",
+    "Method": "Post",
+    "RelativePath": "api/Summary",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SummarieId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PdfUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PdfLocalPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Pdf",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaterialId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EduSpot.Services.SummaryAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduSpot.Services.SummaryAPI.Controllers.SummaryController",
+    "Method": "Put",
+    "RelativePath": "api/Summary",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SummarieId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PdfUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PdfLocalPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Pdf",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaterialId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EduSpot.Services.SummaryAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduSpot.Services.SummaryAPI.Controllers.SummaryController",
+    "Method": "Get",
+    "RelativePath": "api/Summary/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EduSpot.Services.SummaryAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduSpot.Services.SummaryAPI.Controllers.SummaryController",
+    "Method": "Delete",
+    "RelativePath": "api/Summary/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EduSpot.Services.SummaryAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

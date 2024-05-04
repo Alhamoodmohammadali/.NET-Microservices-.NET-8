@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5XXZsZxN4mKQv33+9mHDGPk2ahUp3ar5aFEAyuhVfGA=",
+  "Source": "EduSpot.Services.CouponAPI",
+  "BasePath": "_content/EduSpot.Services.CouponAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

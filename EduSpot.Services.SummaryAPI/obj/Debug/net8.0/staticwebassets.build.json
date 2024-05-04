@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "OwtA8kvgKskt92eY8XWA9PKgpm6gcI5zeax3mkBYWPo=",
+  "Source": "EduSpot.Services.SummaryAPI",
+  "BasePath": "_content/EduSpot.Services.SummaryAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EduSpot.Services.SummaryAPI\\wwwroot",
+      "Source": "EduSpot.Services.SummaryAPI",
+      "ContentRoot": "F:\\LiveProjectsme\\EduStop\\EduSpot.Services.SummaryAPI\\wwwroot\\",
+      "BasePath": "_content/EduSpot.Services.SummaryAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

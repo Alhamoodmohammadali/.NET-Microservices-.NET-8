@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "jgOWPBfXPkIsfjyiMSo7708ULlXakg6494iCmYerJC4=",
+  "Source": "EduSpot.Services.UniversityAPI",
+  "BasePath": "_content/EduSpot.Services.UniversityAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EduSpot.Services.UniversityAPI\\wwwroot",
+      "Source": "EduSpot.Services.UniversityAPI",
+      "ContentRoot": "F:\\LiveProjectsme\\EduStop\\EduSpot.Services.UniversityAPI\\wwwroot\\",
+      "BasePath": "_content/EduSpot.Services.UniversityAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

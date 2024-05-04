@@ -1,0 +1,12 @@
+F:\LiveProjectsme\EduStop\Mango.MessageBus\bin\Debug\net8.0\Mango.MessageBus.deps.json
+F:\LiveProjectsme\EduStop\Mango.MessageBus\bin\Debug\net8.0\Mango.MessageBus.dll
+F:\LiveProjectsme\EduStop\Mango.MessageBus\bin\Debug\net8.0\Mango.MessageBus.pdb
+F:\LiveProjectsme\EduStop\Mango.MessageBus\obj\Debug\net8.0\Mango.MessageBus.csproj.AssemblyReference.cache
+F:\LiveProjectsme\EduStop\Mango.MessageBus\obj\Debug\net8.0\Mango.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+F:\LiveProjectsme\EduStop\Mango.MessageBus\obj\Debug\net8.0\Mango.MessageBus.AssemblyInfoInputs.cache
+F:\LiveProjectsme\EduStop\Mango.MessageBus\obj\Debug\net8.0\Mango.MessageBus.AssemblyInfo.cs
+F:\LiveProjectsme\EduStop\Mango.MessageBus\obj\Debug\net8.0\Mango.MessageBus.csproj.CoreCompileInputs.cache
+F:\LiveProjectsme\EduStop\Mango.MessageBus\obj\Debug\net8.0\Mango.MessageBus.dll
+F:\LiveProjectsme\EduStop\Mango.MessageBus\obj\Debug\net8.0\refint\Mango.MessageBus.dll
+F:\LiveProjectsme\EduStop\Mango.MessageBus\obj\Debug\net8.0\Mango.MessageBus.pdb
+F:\LiveProjectsme\EduStop\Mango.MessageBus\obj\Debug\net8.0\ref\Mango.MessageBus.dll

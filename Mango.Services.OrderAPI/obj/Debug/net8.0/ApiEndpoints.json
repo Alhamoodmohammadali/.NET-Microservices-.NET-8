@@ -1,0 +1,80 @@
+[
+  {
+    "ContainingType": "Mango.Services.OrderAPI.Controllers.OrderAPIController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/order/CreateOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDto",
+        "Type": "Mango.Services.OrderAPI.Models.Dto.CartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Mango.Services.OrderAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mango.Services.OrderAPI.Controllers.OrderAPIController",
+    "Method": "Get",
+    "RelativePath": "api/order/GetOrder/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Mango.Services.OrderAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mango.Services.OrderAPI.Controllers.OrderAPIController",
+    "Method": "Get",
+    "RelativePath": "api/order/GetOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Mango.Services.OrderAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

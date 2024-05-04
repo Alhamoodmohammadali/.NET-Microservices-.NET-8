@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YjRxefGNgE6oGlrQILaMCLJhBKRdeyMVoO+yNgkLC+g=",
+  "Source": "EduSpot.Services.SubscriptionCardAPI",
+  "BasePath": "_content/EduSpot.Services.SubscriptionCardAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

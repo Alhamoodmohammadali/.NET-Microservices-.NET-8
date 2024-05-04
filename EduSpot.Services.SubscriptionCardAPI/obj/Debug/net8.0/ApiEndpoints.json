@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "EduSpot.Services.SubscriptionCardAPI.Controllers.CartAPIController",
+    "Method": "ApplyCoupon",
+    "RelativePath": "api/Cart/ApplyCoupon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDto",
+        "Type": "EduSpot.Services.SubscriptionCardAPI.Models.Dto.CartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduSpot.Services.SubscriptionCardAPI.Controllers.CartAPIController",
+    "Method": "CartUpsert",
+    "RelativePath": "api/Cart/CartUpsert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDto",
+        "Type": "EduSpot.Services.SubscriptionCardAPI.Models.Dto.CartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EduSpot.Services.SubscriptionCardAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduSpot.Services.SubscriptionCardAPI.Controllers.CartAPIController",
+    "Method": "GetCart",
+    "RelativePath": "api/Cart/GetCart/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EduSpot.Services.SubscriptionCardAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

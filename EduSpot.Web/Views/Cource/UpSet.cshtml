@@ -1,0 +1,77 @@
+﻿@model CourceDto
+<form asp-action="UpSet" enctype="multipart/form-data">
+    <br />
+    <div class="container border p-3">
+        <h1 class="text-white text-center">@((Model.CourceId == 0 || Model.CourceId == null) ? "Create" : "Edit") Courc</h1>
+        <input asp-for="CourceId" hidden />
+        <hr />
+        <div class="row">
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;"> Name</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;">Description Courc</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <textarea asp-for="Description" class="form-control"  ></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;">Description</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <input asp-for="Price" class="form-control" ></input>
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;">Category Name</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <input asp-for="CategoryName" class="form-control" required rows="5" maxlength="250"></input>
+                        <span asp-validation-for="CategoryName" class="text-danger"></span>
+                    </div>
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;">Video  </label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <input asp-for="Video" type="file" class="form-control"  />
+                        <input asp-for="VideoURl" hidden class="form-control" />
+                        @if (!(Model.CourceId == 0 || Model.CourceId == null))
+                        {
+                            <input asp-for="VideoLocalPath" hidden class="form-control" />
+                        }
+                        <span asp-validation-for="Video" class="text-danger"></span>
+                    </div>
+                    <div class="col-5 offset-2">
+                        <a asp-action="Index" class="btn-primary btn form-control ">Back to List</a>
+                    </div>
+                    <div class="col-5">
+                        @if (Model.CourceId == 0 || Model.CourceId == null)
+                        {
+                            <input type="submit" value="Create" class="btn btn-danger form-control" />
+                        }
+                        else
+                        {
+                            <input type="submit" value="Edit" class="btn btn-danger form-control" />
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                @if (Model.Count != 0)
+                {
+                    <img src="@Model.VideoURl" class="w-100" alt="" />
+                }
+            </div>
+        </div>
+    </div>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

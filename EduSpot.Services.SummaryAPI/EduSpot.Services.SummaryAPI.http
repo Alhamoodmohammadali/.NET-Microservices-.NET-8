@@ -1,0 +1,6 @@
+@EduSpot.Services.SummaryAPI_HostAddress = http://localhost:5183
+
+GET {{EduSpot.Services.SummaryAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,70 @@
+﻿@model UniversityDto
+<form asp-action="UpSet" enctype="multipart/form-data">
+    <br />
+    <div class="container border p-3">
+        <h1 class="text-white text-center">@((Model.UniversityId == 0 || Model.UniversityId == null) ? "Create" : "Edit") University</h1>
+        <input asp-for="UniversityId" hidden />
+        <hr />
+        <div class="row">
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;"> Name</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <input asp-for="Name" class="form-control" required min="5" maxlength="50" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;">Location University</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <input asp-for="Location" class="form-control" required min="5" maxlength="100" />
+                        <span asp-validation-for="Location" class="text-danger"></span>
+                    </div>
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;">Description</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <textarea asp-for="Description" class="form-control" required rows="5" maxlength="250"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;">ImageUrl</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <input asp-for="Image" type="file" class="form-control" accept="image/*" />
+                        <input asp-for="ImageUrl" hidden class="form-control" />
+                        @if (!(Model.UniversityId == 0 || Model.UniversityId == null))
+                        {
+                            <input asp-for="ImageLocalPath" hidden class="form-control" />
+                        }
+                        <span asp-validation-for="Image" class="text-danger"></span>
+                    </div>
+                    <div class="col-5 offset-2">
+                        <a asp-action="UniversityIndex" class="btn-primary btn form-control ">Back to List</a>
+                    </div>
+                    <div class="col-5">
+                        @if (Model.UniversityId == 0 || Model.UniversityId == null)
+                        {
+                            <input type="submit" value="Create" class="btn btn-danger form-control" />
+                        }
+                        else
+                        {
+                            <input type="submit" value="Edit" class="btn btn-danger form-control" />
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                @if (Model.UniversityId != 0)
+                {
+                    <img src="@Model.ImageUrl" class="w-100" alt="" />
+                }
+            </div>
+        </div>
+    </div>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,6 @@
+@EduSpot.Services.HomowrkAPI_HostAddress = http://localhost:5029
+
+GET {{EduSpot.Services.HomowrkAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,58 @@
+﻿@model CourceDto
+<form asp-action="UpSet" enctype="multipart/form-data">
+    <br />
+    <div class="container border p-3">
+        <h1 class="text-white text-center">  Delete Courc</h1>
+        <input asp-for="CourceId" hidden />
+        <hr />
+        <div class="row">
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;"> Name</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <input asp-for="Name"disabled class="form-control" />
+                    </div>
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;">Location University</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <textarea asp-for="Description" disabled class="form-control" />
+                    </div>
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;">Description</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <input  asp-for="Price" disabled class="form-control"></input>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <input asp-for="CategoryName" disabled class="form-control" ></input>
+                    </div>
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;">ImageUrl</label>
+                    </div>
+                    <div class="col-5 offset-2">
+                        <a asp-action="Index" class="btn-primary btn form-control ">Back to List</a>
+                    </div>
+                    <div class="col-5">
+                        @if (Model.CourceId == 0 || Model.CourceId == null)
+                        {
+                            <input type="submit" value="Create" class="btn btn-danger form-control" />
+                        }
+                        else
+                        {
+                            <input type="submit" value="Edit" class="btn btn-danger form-control" />
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                @if (Model.Count != 0)
+                {
+                    <img src="@Model.VideoURl" class="w-100" alt="" />
+                }
+            </div>
+        </div>
+    </div>
+</form>

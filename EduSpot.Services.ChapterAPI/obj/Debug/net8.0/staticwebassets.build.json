@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "5tWyH+7eglup5ux4KxYRFOJLQ+a0f6IQ+/tJt7mSS3c=",
+  "Source": "EduSpot.Services.ChapterAPI",
+  "BasePath": "_content/EduSpot.Services.ChapterAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EduSpot.Services.ChapterAPI\\wwwroot",
+      "Source": "EduSpot.Services.ChapterAPI",
+      "ContentRoot": "F:\\LiveProjectsme\\EduStop\\EduSpot.Services.ChapterAPI\\wwwroot\\",
+      "BasePath": "_content/EduSpot.Services.ChapterAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

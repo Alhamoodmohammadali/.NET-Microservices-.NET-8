@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "UkTAHCKhR8LmLX9DJo21/rEYNJc6+Gxsv3YMW/GvzPM=",
+  "Source": "EduSpot.Services.CourcesAPI",
+  "BasePath": "_content/EduSpot.Services.CourcesAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EduSpot.Services.CourcesAPI\\wwwroot",
+      "Source": "EduSpot.Services.CourcesAPI",
+      "ContentRoot": "F:\\LiveProjectsme\\EduStop\\EduSpot.Services.CourcesAPI\\wwwroot\\",
+      "BasePath": "_content/EduSpot.Services.CourcesAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\LiveProjectsme\\EduStop\\EduSpot.Services.CourcesAPI\\wwwroot\\VideoFile2\\3.mp4",
+      "SourceId": "EduSpot.Services.CourcesAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\LiveProjectsme\\EduStop\\EduSpot.Services.CourcesAPI\\wwwroot\\",
+      "BasePath": "_content/EduSpot.Services.CourcesAPI",
+      "RelativePath": "VideoFile2/3.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\VideoFile2\\3.mp4"
+    }
+  ]
+}

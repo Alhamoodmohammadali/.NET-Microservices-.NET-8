@@ -1,0 +1,6 @@
+@EduSpot.Services.MaterialAPI_HostAddress = http://localhost:5094
+
+GET {{EduSpot.Services.MaterialAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

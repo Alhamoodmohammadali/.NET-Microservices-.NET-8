@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "u0dxrOFij/tn66yd024wN2kml/JKrIukOE/InM61Jvs=",
+  "Source": "EduSpot.Services.MagorAPI",
+  "BasePath": "_content/EduSpot.Services.MagorAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EduSpot.Services.MagorAPI\\wwwroot",
+      "Source": "EduSpot.Services.MagorAPI",
+      "ContentRoot": "F:\\LiveProjectsme\\EduStop\\EduSpot.Services.MagorAPI\\wwwroot\\",
+      "BasePath": "_content/EduSpot.Services.MagorAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

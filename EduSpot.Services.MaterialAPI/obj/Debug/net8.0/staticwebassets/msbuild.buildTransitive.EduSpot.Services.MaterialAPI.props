@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\EduSpot.Services.MaterialAPI.props" />
+</Project>

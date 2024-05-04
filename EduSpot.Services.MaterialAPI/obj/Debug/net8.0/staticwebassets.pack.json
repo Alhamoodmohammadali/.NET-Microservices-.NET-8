@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\LiveProjectsme\\EduStop\\EduSpot.Services.MaterialAPI\\wwwroot\\Materialimages\\2003.png",
+      "PackagePath": "staticwebassets\\Materialimages\\2003.png"
+    },
+    {
+      "Id": "F:\\LiveProjectsme\\EduStop\\EduSpot.Services.MaterialAPI\\wwwroot\\Materialimages\\2004.png",
+      "PackagePath": "staticwebassets\\Materialimages\\2004.png"
+    },
+    {
+      "Id": "F:\\LiveProjectsme\\EduStop\\EduSpot.Services.MaterialAPI\\wwwroot\\Materialimages\\2005.png",
+      "PackagePath": "staticwebassets\\Materialimages\\2005.png"
+    },
+    {
+      "Id": "F:\\LiveProjectsme\\EduStop\\EduSpot.Services.MaterialAPI\\wwwroot\\Materialimages\\2006.png",
+      "PackagePath": "staticwebassets\\Materialimages\\2006.png"
+    },
+    {
+      "Id": "F:\\LiveProjectsme\\EduStop\\EduSpot.Services.MaterialAPI\\wwwroot\\Materialimages\\2010.png",
+      "PackagePath": "staticwebassets\\Materialimages\\2010.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EduSpot.Services.MaterialAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EduSpot.Services.MaterialAPI.props",
+      "PackagePath": "build\\EduSpot.Services.MaterialAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EduSpot.Services.MaterialAPI.props",
+      "PackagePath": "buildMultiTargeting\\EduSpot.Services.MaterialAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EduSpot.Services.MaterialAPI.props",
+      "PackagePath": "buildTransitive\\EduSpot.Services.MaterialAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "L5Yr3TI0HC01ujQRZKJVxGaKsDwWoPil+BVmsMKfJ5E=",
+  "Source": "EduSpot.Services.LectureAPI",
+  "BasePath": "_content/EduSpot.Services.LectureAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EduSpot.Services.LectureAPI\\wwwroot",
+      "Source": "EduSpot.Services.LectureAPI",
+      "ContentRoot": "F:\\LiveProjectsme\\EduStop\\EduSpot.Services.LectureAPI\\wwwroot\\",
+      "BasePath": "_content/EduSpot.Services.LectureAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

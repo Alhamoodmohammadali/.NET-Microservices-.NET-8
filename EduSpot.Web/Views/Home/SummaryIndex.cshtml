@@ -1,0 +1,23 @@
+﻿@model IEnumerable<SummaryDto>
+<form>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            @foreach (var Summary in Model)
+            {
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">@Summary.Name</h5>
+                                    <p class="card-text">@Html.Raw(Summary.Description)</p>
+                                    <a href="@Summary.PdfUrl" class="btn btn-primary">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</form>
